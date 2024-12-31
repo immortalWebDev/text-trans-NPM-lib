@@ -1,0 +1,13 @@
+{
+  "name": "text-trans",
+  "version": "1.0.4",
+  "description": "A simple string utilities library",
+  "types": "index.d.ts",  
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["string", "utilities", "capitalize", "reverse", "truncate","TitleCase","camelCase","snake_case","kebab-case"],
+  "author": "Piyush Badgujar",
+  "license": "ISC" 
+}

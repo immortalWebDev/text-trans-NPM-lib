@@ -42,7 +42,9 @@ module.exports.toTitleCase = (str) =>
     .replace(/\b\w/g, (char) => char.toUpperCase());
 
 // Counts the number of words in a string
-module.exports.wordCount = (str) => str.trim().split(/\s+/).length;
+module.exports.wordCount = (word) => {
+  return word.split(/\s+/).filter((n) => n !== "").length;
+};
 
 // Checks if a string is a palindrome
 module.exports.isPalindrome = (str) => {

@@ -1,6 +1,6 @@
 {
   "name": "text-trans",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple string utilities library",
   "types": "index.d.ts",  
   "main": "index.js",
